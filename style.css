@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2? family = Advent + Pro: wght @ 300 & family = Dancing + Script & family = Source + Sans + Pro: ital @ 1 & display = échanger');
+
+html {
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Advent Pro'sans-serif;
+  padding: 0;
+  margin: 0;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style-type: none;
+}
+h2{
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 2em;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a{
+  text-decoration: none;
+  color:black ;
+}
+/* **********************NAVBAR******************* */
+header nav {
+ overflow: hidden;
+ background-color: #afad16cc;
+ position: fixed;
+ width: 100%;
+ opacity: 0.9;
+}
+header li{
+  float: right;
+  font-size: 1.2em;
+}
+header li a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 18px 16px;
+}
+#logo{
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  float: left;
+}
+/* ********************* IMAGE PRINCIPALE *************** */
+#imagePrincipale{
+  padding-top: 60px;
+  background: url(image/photo-1609787871328-ffcdbbb56d94.jpg)no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 500px;
+}
+h1{
+  font-family: 'Dancing Script',cursive;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 6em;
+  margin-top: 110px;
+  text-shadow: 1px 3px 2px black;
+}
+#premiertrait {
+  height: 1px;
+  width: 25%;
+  margin: -3px auto;
+  background-color: antiquewhite;
+  text-shadow: 1px 3px 2px black;
+}
+h3{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 3em;
+  text-shadow: 1px 3px 2px black;
+}
+/* ***************** PRESENTATION **************** */
+#presentation{
+  background-color: antiquewhite;
+  padding: 10px 0px 100px 0;
+}
+#textIntro{
+  padding: 0px 20%;
+}
+#tuto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 10%;
+}
+.code h4{
+  font-family: 'Dancing Script',cursive;
+  text-align: center;
+  font-size: 1.8em;
+  margin: 15px;
+  font-weight: 300;
+}
+.code img {
+  border-radius: 10px;
+  box-shadow: 8px 8px 17px 6px #000000;
+}
+.code img:hover{
+  opacity: 0.5;
+  transform: scale(1.05);
+  transition: 0.6s ease-in-out;
+}
+/* ************************ AUTRE ******************** */
+#autre {
+  height: 1400;
+  background-color:rgba(117, 107, 13, 0.521);
+  padding: 1px 2%;
+}
+#autre h2 {
+  padding-top: 60px;
+}
+#autre #steup{
+  float: right;
+}
+/* ********************** FOOTER****************** */
+footer {
+  background-color: saddlebrown;
+  color: blanchedalmond;
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+form {
+  margin: 0 auto;
+  max-width: 900px;
+
+}
+input, textarea, button {
+  border: none;
+  width: 50%;
+  padding: 15px 10px;
+  margin: 1px 0;
+  font-size: 1.2em;
+  font-family: 'Advent Pro', sans-serif;
+  border-radius: 8px;
+}
+textarea{
+  height: 120px;
+}
+button{
+  font-size: 1.5em;
+  background-color: blanchedalmond;
+}
+button:hover {
+  background-color: darkred;
+  color:rgb(255, 255, 255)
+}
+#deuxiemeTrait {
+  height: 1px;
+  width: 75%;
+  background-color: #fffae1;
+  margin: 60px auto;
+}
+#copyrightEtIcons {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 0 10%;
+}
+#copyright {
+  width: 50%;
+  text-align: left;
+  color: #fffae1;
+}
+#icons {
+  width: 50%;
+  text-align: right;
+}
+#icons.a {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 1.3em;
+  color:#fffae1;
+}
+#icons a:hover {
+  transform: scale(1.5);
+  transition: 0.1s;
+}
